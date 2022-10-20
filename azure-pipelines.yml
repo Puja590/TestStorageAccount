@@ -27,5 +27,7 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'Deploy-RG-01'
     location: 'East US'
-    templateLocation: 'https://github.com/Puja590/TestStorageAccount/blob/main/template.json'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://github.com/Puja590/TestStorageAccount/blob/main/template.json'
+    csmParametersFileLink: 'https://github.com/Puja590/TestStorageAccount/blob/main/parameters.json'
     deploymentMode: 'Incremental'
