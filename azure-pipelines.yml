@@ -27,5 +27,5 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'Deploy-RG-01'
     location: 'East US'
-    templateLocation: 'Linked artifact'
+    templateLocation: 'https://github.com/Puja590/TestStorageAccount/blob/main/template.json'
     deploymentMode: 'Incremental'
